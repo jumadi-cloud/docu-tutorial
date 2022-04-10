@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocu_tutorial=self.webpackChunkdocu_tutorial||[]).push([[817],{9595:function(o){o.exports=JSON.parse('{"permalink":"/docu-tutorial/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
