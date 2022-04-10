@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Kelas Awan Pintar',
+  tagline: 'Buka Masa Depanmu Dengan Terus Belajar',
   url: 'https://jumadi-cloud.github.io.git',
   baseUrl: '/docu-tutorial/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/kap-removebg-preview.png',
   organizationName: 'jumadi-cloud', // Usually your GitHub org/user name.
   projectName: 'docu-tutorial', // Usually your repo name.
 
@@ -42,10 +42,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Kelas Awan Pintar',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/kap-removebg-preview.png',
         },
         items: [
           {
@@ -54,9 +54,9 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/jumadi-cloud',
             label: 'GitHub',
             position: 'right',
           },
@@ -94,18 +94,18 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/jumadi-cloud',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Built with Keep Learning.`,
       },
       prism: {
         theme: lightCodeTheme,
